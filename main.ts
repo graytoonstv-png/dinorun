@@ -105,6 +105,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
 let projectile: Sprite = null
 let mySprite: Sprite = null
 music.play(music.stringPlayable("B A G A G F A C5 ", 140), music.PlaybackMode.UntilDone)
+music.play(music.stringPlayable("B A G A G F A C5 ", 140), music.PlaybackMode.UntilDone)
+music.play(music.stringPlayable("B A G A G F A C5 ", 140), music.PlaybackMode.UntilDone)
 game.splash("bunny runny")
 scene.setBackgroundColor(13)
 tiles.setCurrentTilemap(tilemap`level1`)
